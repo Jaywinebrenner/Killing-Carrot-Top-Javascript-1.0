@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Killing Carrot Top</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href='css/styles.css' rel='stylesheet'/>
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <script defer src='src/battle.js'>  </script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="entire-game-wrapper">
+
+<div id='header-wrapper' class="row">
+  <div id='header' class="col-12 ">
+    <h1>Killing Carrot Top</h1>
+  </div>
+</div>
+
+
+<!-- PLAYER INFO  FOE INFO-->
+<div id='middle-wrapper' class="row">
+  <div id='middle-left' class="col-6 ">
+    <h5>The Comedian Slayer</h5>
+    <p>Hit Points: <span id="player-hit-points"></span></p>
+    <p>Armor Class: <span id="player-armor-class"></span></p>
+    <p>Attack Power: <span id="player-attack-power"></span></p>
+  </div>
+  <div id='middle-right' class="col-6 ">
+        <h5><span id="foe-name"></span></h5>
+    <p>Hit Points: <span id="foe-hit-points"></span></p>
+    <img src="" alt="">
+  </div>
+</div>
+
+<div id='game-message-wrapper' class="row">
+  <div id='game-message-div' class="col-12">
+      <p id='game-message'></p>
+  </div>
+
+</div>
+
+
+
+  <button id="attack-button" onclick="attack()" >Attack!</button>
+  <button id='restart-button' hidden='true' onclick="restart()">Restart</button>
+  <p></p>
+
+  </div>
+</body>
+
+
+</html>

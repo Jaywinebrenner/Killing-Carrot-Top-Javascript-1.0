@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+}
+#header-wrapper{
+  background-color: lightyellow;
+  text-align: center;
+}
+
+#header{
+    display: inline-block
+      border: solid 2px;
+}
+
+.entire-game-wrapper{
+  width: 60%;
+  display: inline-block;
+border: thick double #black;
+}
+
+#middle-left{
+  background-color: lightgray;
+}
+
+#middle-right{
+  background-color: lightgreen;
+}
+
+p{
+  line-height: 20px;
+}
+
+
+p, h1, h2, h3, h4, h5{
+
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+#game-message-div{
+  height: 9rem;
+  background-color: lightblue;
+}
