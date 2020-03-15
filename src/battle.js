@@ -40,6 +40,11 @@ const story = () => {
 	printStory();
 }
 
+// INITIATIVE
+// const initiative = () => {
+// 	if (dice >= 6)
+// }
+
 
 
 // ATTACK
@@ -131,9 +136,7 @@ const printBattle = () => {
 
 printBattle();
 
-const printStory = (areaNumber) => {
+const printStory = () => {
 	document.getElementById('story-message-text').innerText =
 		gameStory.areaOne;
 }
-
-printStory();
