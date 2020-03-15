@@ -1,42 +1,101 @@
 body{
   text-align: center;
+  background: black;
 }
+
 #header-wrapper{
-  background-color: lightyellow;
+  height: 8rem;
   text-align: center;
 }
 
-#header{
-    display: inline-block
-      border: solid 2px;
+#header-left{
+    display: inline-block;
+    background-color: black;
+    border: thick double white;
+}
+
+#header-right{
+    display: inline-block;
+    background-color: black;
+border: thick double white;
+}
+
+.carrot-top-image{
+  width: 8rem;
+}
+
+#killing-word{
+  color: #8A0303;
 }
 
 .entire-game-wrapper{
-  width: 60%;
+  margin-top: 1.5rem;
+  width: 80%;
   display: inline-block;
-border: thick double #black;
+  border: thick double #black;
 }
 
 #middle-left{
-  background-color: lightgray;
+  padding-top: 2rem;
+  background-color: black;
+  border: thick double white;
+  height: 12rem;
 }
 
 #middle-right{
-  background-color: lightgreen;
+    padding-top: 2rem;
+  background-color: black;
+  border: thick double white;
 }
 
 p{
-  line-height: 20px;
+  line-height: .5rem;
+    font-size: .5rem;
 }
+
+#game-message-text{
+  font-size: .8rem;
+}
+
+#game-message-div{
+  padding: 3rem 12rem 0 12rem;
+
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+h5{
+  font-size: 1rem;
+}
+
+
 
 
 p, h1, h2, h3, h4, h5{
-
   font-family: 'Press Start 2P', cursive;
+  color: #fcfafa;
+}
+
+#story-message-text{
+  font-size: .7rem;
+}
+
+#title{
+  padding-top: 2rem;
+  font-size: 2.5rem;
+}
+
+#game-message-div{
+  height: 17rem;
+  background-color: black;
+  border: thick double white;
 }
 
 
-#game-message-div{
-  height: 9rem;
-  background-color: lightblue;
+#player-interaction-div{
+  height: 7rem;
+  background-color: black;
+  border: thick double white;
 }
